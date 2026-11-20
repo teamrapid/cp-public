@@ -1,0 +1,18 @@
+database:
+  drivername: drivername for database
+  host: host for database server
+  port: post for database server
+  database: database to use
+  username: username for database
+  password: password for database
+  schema: schema for database
+  query: 
+    driver: optional driver needed for SQL server
+    TrustServerCertificate: optional server cert needed for SQL server
+columns:                       
+  site_code: Site name to add to results.csv
+  data_snapshot_date: data snapshot date to add to results.csv
+suppression:
+  enabled: add supression to the counts (true/false)
+  threshold: threshold number for counts
+  complementary: add complementary supression to the counts (true/false). This will add supression to second lowest count if only one count is supressed in a CP
