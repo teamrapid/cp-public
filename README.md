@@ -1,2 +1,4 @@
 # cp-public
 cp-public
+
+Copyright (c) 2026 teamrapid. All rights reserved.
